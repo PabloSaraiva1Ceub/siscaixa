@@ -93,6 +93,10 @@ uv pip install -e .
 
 ### Comandos Disponíveis
 
+```bash
+uv run siscaixa --help
+```
+
 #### 1. Adicionar Transação (`add`)
 
 Registra uma nova receita ou despesa.
