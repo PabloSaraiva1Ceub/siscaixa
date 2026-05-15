@@ -13,7 +13,9 @@ from siscaixa.repository.database import (
     TransactionRepository,
     create_engine_from_url,
 )
-from siscaixa.services.cotacao_service import obter_cotacao
+from siscaixa.services.cotacao_service import (
+    obter_cotacao,
+)
 
 app = typer.Typer(
     name="siscaixa",
